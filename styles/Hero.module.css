@@ -1,0 +1,74 @@
+.hero_wrapper{
+    background: rgba(0, 0, 0, 0.7);
+    padding: 1em;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 40%;
+    margin-top: -20%;
+}
+
+.hero_wrapperTwo{
+ 
+    margin-top: 0;
+}
+.hero_form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.hero_input {
+    width: 50%;
+    height: 3em;
+    margin: 1em 0;
+}
+
+.hero_p {
+    font-size: 1.5em;
+    display: inline;
+    text-align: center;
+}
+
+.hero_h2 {
+    font-size: 3em;
+}
+
+.hero_b {
+    font-size: 2em;
+    padding: 0.5em;
+}
+
+.hero_r {
+    font-size: 1.5em;
+    background-color:rgba(241, 108, 108, 0.7);
+    padding: 0.2em 0.5em;;
+    border-radius: 20px;
+}
+
+.hero_o {
+    font-size: 1.5em;
+    background-color:rgba(191, 139, 46);
+}
+
+.divider{
+    width: 80%;
+    border: solid white 2px;
+    margin: 1em 0;
+    padding: 0 1em;
+}
+.dividertwo {
+    background-color:rgba(191, 139, 46);
+    padding: 0.4em;
+    display: inline-flex;
+    margin: 1em 0;
+}
+.divpic {
+    display: inline;
+    padding: 0.5em;
+}
+

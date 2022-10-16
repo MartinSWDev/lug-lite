@@ -1,0 +1,38 @@
+"filename", "language", "JSON", "JavaScript", "CSS", "JavaScript React", "XML", "Markdown", "YAML", "comment", "blank", "total"
+"c:\Users\Nicole\OneDrive\GitHub\lug-lite\.eslintrc.json", "JSON", 3, 0, 0, 0, 0, 0, 0, 0, 1, 4
+"c:\Users\Nicole\OneDrive\GitHub\lug-lite\.github\workflows\azure-static-web-apps-brave-sea-042dd6703.yml", "YAML", 0, 0, 0, 0, 0, 0, 39, 3, 4, 46
+"c:\Users\Nicole\OneDrive\GitHub\lug-lite\README.md", "Markdown", 0, 0, 0, 0, 0, 21, 0, 0, 16, 37
+"c:\Users\Nicole\OneDrive\GitHub\lug-lite\components\Fact.jsx", "JavaScript React", 0, 0, 0, 26, 0, 0, 0, 0, 6, 32
+"c:\Users\Nicole\OneDrive\GitHub\lug-lite\components\Hero.jsx", "JavaScript React", 0, 0, 0, 78, 0, 0, 0, 0, 4, 82
+"c:\Users\Nicole\OneDrive\GitHub\lug-lite\components\NavBar.jsx", "JavaScript React", 0, 0, 0, 19, 0, 0, 0, 0, 3, 22
+"c:\Users\Nicole\OneDrive\GitHub\lug-lite\models\apiKeyModel.js", "JavaScript", 0, 13, 0, 0, 0, 0, 0, 0, 4, 17
+"c:\Users\Nicole\OneDrive\GitHub\lug-lite\models\cityModel.js", "JavaScript", 0, 19, 0, 0, 0, 0, 0, 0, 4, 23
+"c:\Users\Nicole\OneDrive\GitHub\lug-lite\models\emissionModel.js", "JavaScript", 0, 22, 0, 0, 0, 0, 0, 0, 4, 26
+"c:\Users\Nicole\OneDrive\GitHub\lug-lite\next.config.js", "JavaScript", 0, 5, 0, 0, 0, 0, 0, 1, 2, 8
+"c:\Users\Nicole\OneDrive\GitHub\lug-lite\package-lock.json", "JSON", 5741, 0, 0, 0, 0, 0, 0, 0, 1, 5742
+"c:\Users\Nicole\OneDrive\GitHub\lug-lite\package.json", "JSON", 23, 0, 0, 0, 0, 0, 0, 0, 1, 24
+"c:\Users\Nicole\OneDrive\GitHub\lug-lite\pages\_app.js", "JavaScript", 0, 13, 0, 0, 0, 0, 0, 0, 3, 16
+"c:\Users\Nicole\OneDrive\GitHub\lug-lite\pages\api\carbon.js", "JavaScript", 0, 12, 0, 0, 0, 0, 0, 0, 2, 14
+"c:\Users\Nicole\OneDrive\GitHub\lug-lite\pages\api\emissions.js", "JavaScript", 0, 5, 0, 0, 0, 0, 0, 0, 2, 7
+"c:\Users\Nicole\OneDrive\GitHub\lug-lite\pages\api\hello.js", "JavaScript", 0, 3, 0, 0, 0, 0, 0, 1, 2, 6
+"c:\Users\Nicole\OneDrive\GitHub\lug-lite\pages\api\search.js", "JavaScript", 0, 37, 0, 0, 0, 0, 0, 0, 3, 40
+"c:\Users\Nicole\OneDrive\GitHub\lug-lite\pages\baggage.js", "JavaScript", 0, 67, 0, 0, 0, 0, 0, 0, 5, 72
+"c:\Users\Nicole\OneDrive\GitHub\lug-lite\pages\index.js", "JavaScript", 0, 18, 0, 0, 0, 0, 0, 0, 2, 20
+"c:\Users\Nicole\OneDrive\GitHub\lug-lite\pages\itemcheck.js", "JavaScript", 0, 115, 0, 0, 0, 0, 0, 0, 8, 123
+"c:\Users\Nicole\OneDrive\GitHub\lug-lite\pages\itemreview.js", "JavaScript", 0, 141, 0, 0, 0, 0, 0, 0, 8, 149
+"c:\Users\Nicole\OneDrive\GitHub\lug-lite\pages\lugrecheck.js", "JavaScript", 0, 69, 0, 0, 0, 0, 0, 1, 5, 75
+"c:\Users\Nicole\OneDrive\GitHub\lug-lite\pages\savings.js", "JavaScript", 0, 54, 0, 0, 0, 0, 0, 0, 2, 56
+"c:\Users\Nicole\OneDrive\GitHub\lug-lite\public\sdg12.svg", "XML", 0, 0, 0, 0, 1, 0, 0, 0, 0, 1
+"c:\Users\Nicole\OneDrive\GitHub\lug-lite\public\sdg250.svg", "XML", 0, 0, 0, 0, 1, 0, 0, 0, 0, 1
+"c:\Users\Nicole\OneDrive\GitHub\lug-lite\public\vercel.svg", "XML", 0, 0, 0, 0, 4, 0, 0, 0, 0, 4
+"c:\Users\Nicole\OneDrive\GitHub\lug-lite\styles\Fact.module.css", "CSS", 0, 0, 11, 0, 0, 0, 0, 0, 2, 13
+"c:\Users\Nicole\OneDrive\GitHub\lug-lite\styles\Hero.module.css", "CSS", 0, 0, 61, 0, 0, 0, 0, 0, 9, 70
+"c:\Users\Nicole\OneDrive\GitHub\lug-lite\styles\Home.module.css", "CSS", 0, 0, 112, 0, 0, 0, 0, 0, 19, 131
+"c:\Users\Nicole\OneDrive\GitHub\lug-lite\styles\NavBar.module.css", "CSS", 0, 0, 16, 0, 0, 0, 0, 0, 0, 16
+"c:\Users\Nicole\OneDrive\GitHub\lug-lite\styles\globals.css", "CSS", 0, 0, 26, 0, 0, 0, 0, 0, 3, 29
+"c:\Users\Nicole\OneDrive\GitHub\lug-lite\utils\connectMongo.js", "JavaScript", 0, 5, 0, 0, 0, 0, 0, 0, 3, 8
+"c:\Users\Nicole\OneDrive\GitHub\lug-lite\utils\getApiKey.js", "JavaScript", 0, 43, 0, 0, 0, 0, 0, 0, 4, 47
+"c:\Users\Nicole\OneDrive\GitHub\lug-lite\utils\getCarbon.js", "JavaScript", 0, 24, 0, 0, 0, 0, 0, 0, 3, 27
+"c:\Users\Nicole\OneDrive\GitHub\lug-lite\utils\getEmission.js", "JavaScript", 0, 19, 0, 0, 0, 0, 0, 0, 3, 22
+"c:\Users\Nicole\OneDrive\GitHub\lug-lite\utils\newKey.js", "JavaScript", 0, 28, 0, 0, 0, 0, 0, 0, 3, 31
+"Total", "-", 5767, 712, 226, 123, 6, 21, 39, 6, 141, 7041

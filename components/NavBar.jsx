@@ -1,23 +1,15 @@
 import Link from "next/link";
+import styles from "../styles/NavBar.module.css";
 
 const NavBar = () => {
   return (
     <div>
       <div>
         <Link href="/">
-          <h1>Lug Lite</h1>
+          <h1 className={styles.topHeader}>Lug Lite</h1>
         </Link>
-        <ul>
-          <li>
-            <Link href="/">Home</Link>
-          </li>
-          <li>
-            <Link href="/">Home</Link>
-          </li>
-          <li>
-            <Link href="/">Home</Link>
-          </li>
-          <li>
+        <ul className={styles.homeButton}>
+          <li className={styles.homeLink}>
             <Link href="/">Home</Link>
           </li>
         </ul>

@@ -8,5 +8,6 @@ export default async (req, res) => {
   const flight = body.flight;
   const key = await getApiKey();
   const carbon = await getCarbon(key, origin, destination, flight);
+  console.log(carbon);
   return res.json({ carbon });
 };
