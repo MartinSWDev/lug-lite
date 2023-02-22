@@ -1,24 +1,24 @@
-import CityModel from "../../models/cityModel";
-import connectMongo from "../../utils/connectmongo";
+import CityModel from '../../models/cityModel';
+import connectMongo from '../../utils/connectMongo';
 
 export default async (req, res) => {
   try {
-    if (req.query.City.includes(",") || req.query.City.includes(" ")) {
+    if (req.query.City.includes(',') || req.query.City.includes(' ')) {
     }
-    console.log("CONNECTING TO MONGO");
+    console.log('CONNECTING TO MONGO');
     await connectMongo();
-    console.log("CONNECTED TO MONGO");
+    console.log('CONNECTED TO MONGO');
 
     const result = await CityModel.aggregate()
       .search({
-        index: "autocomplete",
+        index: 'autocomplete',
         autocomplete: {
           query: req.query.City,
-          path: "City",
+          path: 'City',
           fuzzy: {
             maxEdits: 1,
           },
-          tokenOrder: "sequential",
+          tokenOrder: 'sequential',
         },
       })
       .project({
