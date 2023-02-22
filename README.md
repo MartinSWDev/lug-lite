@@ -59,21 +59,21 @@ It will highlight both negative and positive feedback in response to their choic
 
 This step helps work out the distance that your plane is flying by requesting data from an API
 
-2. Enter luggage weight and details
+2. Enter luggage weight
 
 This calculates the fuel use and CO₂ emissions of that weight. 
 
 3. Answer reduction questions about luggage
 
-Helpful suggestions of recommended amounts and reduction questions encourage you to travel lite / with less. 
+What types of items and how many items are you carrying.
 
 4. Suggestions
 
-Lug Lite will give suggestions about where luggage can be reduced
+Lug Lite will give helpful suggestions of recommended amounts and reduction questions encourage you to travel lite / with less. 
 
 5. Update
 
-Update your luggage weight in the app and Lug Lite will tell you how much carb emssions you have saved
+Update your luggage weight in the app and Lug Lite will tell you how much carbon emissions you have saved
 
 ### Behind the scenes
 - The entered flight data makes a request to an API for distance and emissions data for the flight
