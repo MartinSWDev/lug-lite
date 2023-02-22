@@ -16,10 +16,8 @@ The 1AHACK4SUSTAINABILITY welcomed students with a coding background ready to pu
     6. [How It Works](#how-it-works)
     7. [Behind The Scenes](#behind-the-scenes)
 3.  [Demo](#demo)
-4.  [Deployed Version](#deployed-version)
-5.  [Deployed Version](#deployed-version)
-6.  [Deployed Version](#deployed-version)
-7.  [Deployed Version](#deployed-version)
+4.  [Tech Decisions](#tech-decisions)
+5.  [Notes](#notes)
 
 # Deployed Version
 At some point this will go down due to API keys getting cancelled
@@ -38,18 +36,21 @@ Use at least 1 source of open data to make travel more sustainable addressing 1 
 ### Additional Data
 [Flight Emissions - Chooose](https://www.chooose.today/)
 
-### SDG:
+### SDG
 <img src="https://github.com/MartinSWDev/MartinSWDev.github.io/blob/master/assets/img/sdg250%20(1).png?raw=true" height="100">
 
 [Goal 12, Responsible consumption and production](https://www.globalgoals.org/goals/12-responsible-consumption-and-production/)
 
-### The Issue:
-As a plane burns fuel this creates CO₂ emissions. Aviation makes up around 2.5% of global CO₂ emissions. The heavier a plane is the more fuel it burns and the more CO₂ emissions it creates. When passengers bring on board more luggage this increases the weight and therefore increases the  CO₂ emissions.
+### The Issue
+- Systems Aviation Industry accounts for 3& of Global C0₂ Emissions
+- CO₂ is emitted when fuel is produced and used 
+- The more weight a plane is carrying, the more fuel is used
+- Overpacking: 60% of Brits admit overpacking when travelling with most overpacked items in luggage being: Clothes, Shoes, Electronics, Toiletries and Books
 
-### Solution:
-Our solution is to help reduce the amount of luggage that passengers take on board and therefore reduce the amount of CO₂ emissions.
+### Solution
+Lug Lite - A web app that shows users how much carbon emissions they could save by reducing their luggage weight
 
-We will do this through a helpful luggage check app that can be used at home pre-check-in that encourages an appropriate amount of luggage and ways they can reduce the amount in their bags.
+It can be used at home pre-check-in to encourage an appropriate amount of luggage and ways they can reduce the amount in their bags.
 
 It will highlight both negative and positive feedback in response to their choices.
 
@@ -62,13 +63,17 @@ This step helps work out the distance that your plane is flying by requesting da
 
 This calculates the fuel use and CO₂ emissions of that weight. 
 
-3. Answer reduction questions
+3. Answer reduction questions about luggage
 
 Helpful suggestions of recommended amounts and reduction questions encourage you to travel lite / with less. 
 
-4. Show benefits
+4. Suggestions
 
-Show the amount of reductions they made on this trip and how this benefits the planet. Keep track of their reductions to show all reductions over time. 
+Lug Lite will give suggestions about where luggage can be reduced
+
+5. Update
+
+Update your luggage weight in the app and Lug Lite will tell you how much carb emssions you have saved
 
 ### Behind the scenes
 - The entered flight data makes a request to an API for distance and emissions data for the flight
@@ -79,6 +84,13 @@ Show the amount of reductions they made on this trip and how this benefits the p
 
 # Demo
 https://user-images.githubusercontent.com/98239525/220607231-64f2d232-d654-45d6-a62c-aba52524a766.mp4
+
+# Tech Decisions
+- NextJS - Not something I had used before, wanted something fast that only loaded what was necessary and would allow components to reduce code
+- Styling (CSS) - Went without a framework to try reduce work done by the client
+- Hosting (~Azure~ Vercel) - We wanted to to use Azure due its carbon neutral / efficiency status but ran into issues at the time, have moved to vercel
+- Database (MongoDB) - Had used it before and was easy to add large amounts of data
+- API Calls (Axios) - Again something I had used before and knew would work
 
 # Notes
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
